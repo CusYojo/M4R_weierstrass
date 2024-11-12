@@ -1,0 +1,14 @@
+name = "weierstrass_p"
+defaultTargets = ["weierstrass_p"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+
+[[lean_lib]]
+name = "weierstrass_p"

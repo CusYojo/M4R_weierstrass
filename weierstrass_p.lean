@@ -1,0 +1,1 @@
+import weierstrass_p.Example
